@@ -97,7 +97,7 @@
 					752A71571E44DDA6006CBB29 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3P29JY455N;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -267,6 +267,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tk.yvbbrjdr.SGClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a5f587e-7fc1-4782-966f-5dcc70ea019d";
+				PROVISIONING_PROFILE_SPECIFIER = SGClock;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -281,6 +283,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tk.yvbbrjdr.SGClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a5f587e-7fc1-4782-966f-5dcc70ea019d";
+				PROVISIONING_PROFILE_SPECIFIER = SGClock;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +308,7 @@
 				752A716C1E44DDA6006CBB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
