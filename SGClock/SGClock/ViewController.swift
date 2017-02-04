@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         UIApplication.shared.isIdleTimerDisabled=true
         label.adjustsFontSizeToFitWidth=true
-        timer=Timer.init(timeInterval: 0.01, target: self, selector: #selector(self.timeout), userInfo: nil, repeats: true)
+        timer=Timer.init(timeInterval: 0.015, target: self, selector: #selector(self.timeout), userInfo: nil, repeats: true)
         RunLoop.main.add(timer!, forMode: RunLoopMode.commonModes)
     }
 
